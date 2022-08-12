@@ -1,0 +1,25 @@
+{
+    "students": [
+        {
+            "nome": "David Guetta",
+            "email": "dguetta@gmail.com",
+            "idade": 35,
+            "peso": 70,
+            "altura": 1.75
+        },
+        {
+            "nome": "Pedro David",
+            "email": "Pedim@yahoo.com",
+            "idade": 20,
+            "peso": 60,
+            "altura": 1.70
+        },
+        {
+            "nome": "Carlos David",
+            "email": "Carlao@outlook.com",
+            "idade": 33,
+            "peso": 90,
+            "altura": 1.75
+        }
+    ]
+}

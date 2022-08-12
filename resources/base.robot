@@ -2,6 +2,7 @@
 Documentation       Arquivo base para testes
 
 Library             libs/FuncLibrary.py
+Library             Browser
 Resource            actions/auth.robot
 Resource            actions/student.robot
 Resource            actions/components.robot
@@ -23,3 +24,9 @@ Start browser session
 Clear LS and take ScreenShot
     take ScreenShot
     Local storage clear
+
+Get Json
+    [Arguments]     ${file_name}
+    ${file}=        Get file        ${EXECDIR}/resources/fixtures/${file_name}
+    ${json_object}      Evaluate        json.loads($file)       json
+    [Return]        ${json_object}

@@ -29,3 +29,7 @@ Delete student by email
 Click in button
     [Arguments]     ${button_text}
     Click           //button[.="${button_text}"]
+Student name should be visible
+    [Arguments]     ${student_name}
+    wait for elements state      //td[.="${student_name}"]      visible
+

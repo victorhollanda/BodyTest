@@ -1,6 +1,5 @@
 ***Settings***
 Documentation       Cadastro de alunos
-Library             Browser
 Resource            ${execdir}/resources/base.robot
 
 Suite Setup         Start browser session and login with admin
